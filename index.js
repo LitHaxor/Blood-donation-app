@@ -6,7 +6,7 @@ const app = express();
 
 app.get("/", (request, response) => {
   return response.status(200).send({
-    name: "First server",
+    name: "Hasan Ahamed",
   });
 });
 
