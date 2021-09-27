@@ -1,10 +1,14 @@
 export const navbarData = [
   {
     path: "/",
-    name: "Home",
+    name: "Welcome",
   },
   {
-    path: "/blog",
-    name: "Blog",
+    path: "/donars",
+    name: "Find",
+  },
+  {
+    path: "/find",
+    name: "Become a Hero",
   },
 ];

@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     <>
       <Container>
         <Head>
-          <title>Home - Hasan Ahmed</title>
+          <title>Joruri - Find Blood Donars in Bangladesh by Location</title>
         </Head>
         <Stack
           as="main"

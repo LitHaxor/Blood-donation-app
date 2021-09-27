@@ -1,5 +1,5 @@
 import React, { FC, ReactComponentElement } from "react";
-import { useColorMode, Button, Flex, Box } from "@chakra-ui/react";
+import { useColorMode, Button, Flex, Box, Text } from "@chakra-ui/react";
 import NextLink from "next/link";
 import styled from "@emotion/styled";
 
@@ -60,6 +60,11 @@ const Container: FC<T> = ({ children }) => {
         mb={[0, 0, 8]}
         mx="auto"
       >
+        <Box>
+          <Text fontSize="xl" fontWeight="bold" color="#cf1e1ef">
+            Joruri
+          </Text>
+        </Box>
         <Box>
           {navbarData.map((e) => (
             <>
